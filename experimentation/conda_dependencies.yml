@@ -1,0 +1,10 @@
+
+channels:
+- conda-forge
+dependencies:
+- python=3.6.2
+- pip:
+  - azureml-defaults==1.13.0
+  - tensorflow==2.0.0
+  - keras<=2.3.1
+  - matplotlib
